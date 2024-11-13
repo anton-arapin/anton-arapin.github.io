@@ -20,7 +20,21 @@ header h1 {
 }
 
 header p {
-    font-size: 1.2em;
+    font-size: 1.6em;
+}
+
+img {
+    float: left;
+    margin: 0 30px 30px 0;
+    #width: 183px;
+    #height: 290px;
+    width: 206px;
+    height: 327px;
+}
+
+p.forimg {
+    text-align: justify;
+    text-indent: 2em;
 }
 
 nav ul {
@@ -31,6 +45,8 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 25px;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px black;
 }
 
 nav ul li a {
