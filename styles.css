@@ -8,8 +8,8 @@ body {
 }
 
 header {
-    background: #005f73;
-    color: #fff;
+    background: #8BA0A8;
+    color: #D13412;
     padding: 20px 0;
     text-align: center;
 }
@@ -30,7 +30,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 25px;
 }
 
 nav ul li a {
@@ -51,7 +51,7 @@ main {
 }
 
 h2 {
-    color: #005f73;
+    color: #1291D1;
 }
 
 section {
@@ -65,7 +65,7 @@ ul {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #005f73;
+    background: #8BA0A8;
     color: #fff;
     position: relative;
     bottom: 0;
