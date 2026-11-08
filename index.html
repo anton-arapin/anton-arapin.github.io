@@ -9,7 +9,7 @@
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Anton Arapin">
 <meta property="og:description" content="PhD student at the University of Michigan. World models for robotics, geometric generative models, computer vision.">
-<meta property="og:image" content="https://anton-arapin.github.io/photo2.jpeg">
+<meta property="og:image" content="https://anton-arapin.github.io/photo3.png">
 <meta property="og:url" content="https://anton-arapin.github.io/">
 <style>
   :root{
@@ -39,7 +39,10 @@
   /* ---------- header ---------- */
   header{display:flex;gap:28px;align-items:center}
   .photo{flex:none;width:132px}
-  .photo img{display:block;width:132px;height:132px;object-fit:cover;border-radius:50%;background:#f2f2f2}
+  /* rounded rectangle at the photo's natural aspect ratio (no circular crop);
+     very tall photos are capped and trimmed from the bottom, keeping the face */
+  .photo img{display:block;width:132px;height:auto;max-height:190px;object-fit:cover;object-position:center top;
+             border-radius:14px;background:#f2f2f2}
   h1{font-size:32px;line-height:1.2;font-weight:650;letter-spacing:-.01em;margin:0 0 6px}
   .role{margin:0;color:var(--muted);font-size:15.5px;line-height:1.5}
   .role a{color:var(--muted);text-decoration:underline;text-decoration-color:#ccc}
@@ -99,7 +102,7 @@
 
   <header>
     <div class="photo">
-      <img src="photo2.jpeg" alt="Anton Arapin">
+      <img src="photo3.png" alt="Anton Arapin">
     </div>
     <div>
       <h1>Anton Arapin</h1>
@@ -116,7 +119,7 @@
 
   <section id="about">
     <h2>About</h2>
-    <p>I'm a second-year PhD student at the University of Michigan, advised by Bernadette Bucher in the <a href="https://sites.google.com/umich.edu/mandmlab/">Mapping and Motion Lab</a>. My research sits at the intersection of geometric generative models, computer vision, and robotics. Specifically, I am interested in World Models that preserve geometric structure as scenes evolve, generative models that learn and traverse the action-conditioned data manifold, and their applications in Robotics.</p>
+    <p>I'm a second-year PhD student at the University of Michigan, advised by Bernadette Bucher in the <a href="https://m-and-m-lab.github.io">Mapping and Motion Lab</a>. My research sits at the intersection of geometric generative models, computer vision, and robotics. Specifically, I am interested in World Models that preserve geometric structure as scenes evolve, generative models that learn and traverse the action-conditioned data manifold, and their applications in Robotics.</p>
     <p>Before Michigan, I was a software engineer at Google, working on a large-scale machine learning system for modeling and predicting user behavior, with a focus on the accuracy, quality, and efficiency of training and inference. Previously, I also collaborated with Junchen Jiang at the University of Chicago on neural video codecs, and with Kostas Daniilidis at the GRASP Lab on robot exploration and navigation.</p>
   </section>
 
@@ -127,7 +130,7 @@
       <li><span class="when">Sep 2026</span><span>D3WM posted in open access &mdash; <a href="https://anton-arapin.github.io/d3wm-site/">project page</a>, <a href="https://arxiv.org/abs/2610.19212">paper</a>.</span></li>
       <li><span class="when">Jun 2026</span><span>PhyGS appeared at the CVPR 2026 Workshop on Multi-Agent Embodied Intelligent Systems &mdash; <a href="https://m-and-m-lab.github.io/PhyGS/">project page</a>, <a href="https://m-and-m-lab.github.io/PhyGS/assets/papers/phygs.pdf">paper</a>.</span></li>
       <li><span class="when">Summer 2026</span><span>Became a CSE PhD Candidate.</span></li>
-      <li><span class="when">Fall 2025</span><span>Joined the <a href="https://sites.google.com/umich.edu/mandmlab/">Mapping and Motion Lab</a> at the University of Michigan.</span></li>
+      <li><span class="when">Fall 2025</span><span>Joined the <a href="https://m-and-m-lab.github.io">Mapping and Motion Lab</a> at the University of Michigan.</span></li>
       <li><span class="when">2024</span><span>GRACE appeared at NSDI 2024.</span></li>
       <li><span class="when">2023</span><span>The University of Chicago <a href="http://cs.uchicago.edu/news/uchicago-computer-scientists-bring-in-generative-neural-networks-to-stop-real-time-video-fram-lagging/">featured the GRACE project</a>.</span></li>
       <li><span class="when">2022</span><span>AccMPEG appeared at MLSys 2022.</span></li>
